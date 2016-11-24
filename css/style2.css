@@ -1,0 +1,24 @@
+.reck{
+  width: 600px;
+ margin:auto;
+ background: green;
+
+}
+.neck , aside{
+  height: 200px;
+
+}
+.neck{
+  background: red;
+   float: left;
+   width: 500px;
+}
+aside{
+  background: grey;
+  float: left;
+
+}
+aside, ul{
+  list-style: none;
+  padding-left: 18px;
+}

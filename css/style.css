@@ -1,0 +1,17 @@
+body {
+   color: red;
+   font-family: sans-serif;
+   width:600px;
+   margin:auto;
+    background: yellow;
+}
+ul a{
+  list-style: none;
+  display: inline;
+  text-decoration: none;
+}
+blockquote{
+
+  margin-left: 0px;
+  border : 1px solid black;
+}

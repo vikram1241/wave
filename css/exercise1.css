@@ -1,0 +1,95 @@
+body{
+  background: grey;
+  margin-top:20px;
+}
+.container_12{
+background:#F0FFFF;
+font-family: sans-serif;
+}
+.wrap header{
+  background: grey;
+  position:fixed;
+  width:auto;
+  opacity: 4px;
+
+}
+.grid_4{
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.grid_8{
+
+  margin-top: 30px;
+
+}
+nav li{
+  margin-left: 80px;
+  display: inline;
+  padding:5px;
+
+}
+li a:hover{
+  color: pink;
+}
+.main{
+  margin-top:20px;
+
+}
+.grid_4{
+  margin-top: 10px;
+
+}
+.grid_3{
+  margin-top: 10px;
+}
+.para{
+  font-size: 20px;
+}
+.para2{
+  font-size: 20px;
+}
+.para3{
+  font-size: 20px;
+}
+.hero{
+  margin-right:10px;
+  padding:0px;
+}
+.ffod1{
+  margin-left: 0px;
+  margin-top: 10px;
+}
+.pr1{
+  margin-top: 10px;
+  font-size: 13px;
+  margin-left: 10px;
+  width:400px;
+  height:100px;
+}
+.pr2{
+  font-size: 13px;
+  margin-left: 10px;
+  width:400px;
+  height:100px;
+}
+.pr3{
+  font-size: 13px;
+  margin-left: 10px;
+  width:400px;
+  height:100px;
+}
+.footer{
+
+  width:960px;
+  height:50px;
+  margin:auto;
+  margin-top: 10px;
+  border-width:960px;
+  text-decoration-color: white;
+  border: 1px solid #F0FFFF;
+
+}
+.footer p{
+text-align: center;
+padding:10px;
+}

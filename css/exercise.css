@@ -1,15 +1,24 @@
 body{
   background: grey;
+  margin-top:20px;
 }
 .container_12{
 background:#F0FFFF;
 font-family: sans-serif;
+}
+.wrap header{
+  background: grey;
+  position:fixed;
+  width:auto;
+  opacity: 4px;
+
 }
 .grid_4{
   font-size: 50px;
   margin-bottom: 10px;
 }
 .grid_8{
+
   margin-top: 30px;
 
 }
@@ -21,6 +30,10 @@ nav li{
 }
 li a:hover{
   color: pink;
+}
+.main{
+  margin-top:20px;
+
 }
 .grid_4{
   margin-top: 10px;

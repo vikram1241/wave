@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+	<!-- Website Title & Description for Search Engine purposes -->
+	<title></title>
+	<meta name="description" content="">
+
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- Bootstrap CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="includes/css/mysite.css" rel="stylesheet">
+
+
+	<!-- Include Modernizr in the head, before any other Javascript -->
+	<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+
+	<div class="container" id="main">
+
+
+		<div class="navbar navbar-fixed-top">
+			<div class="container">
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button><!--responsive when reduced-->
+				<a class="navbar-brand" href="/" ><img src="image/bb.jpg" alt="logo" width="125" height="27"></a>
+				<div class="nav-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">home</a>
+						</li><!--end active-->
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								services<strong class="caret"></strong><!--arrow-->
+							</a>
+							<ul class="dropdown-menu">
+								<h4>duplex-homes</h4>
+								<li>
+									<a href="#">independent</a>
+								</li>
+								<li>
+									<a href="#">lands</a>
+								</li>
+								<li>
+									<a href="#">construction detials</a>
+								</li>
+								<li class="divider"></li><!--divider-->
+								<li>
+									<a class="dropdown-header"><h4>Places</h4></a>
+								</li>
+								<li>
+									<a href="#">Hyderabad</a>
+								</li>
+								<li>
+									<a href="#">Vijayawada</a>
+								</li>
+								<li>
+									<a href="#">Bangalore</a>
+								</li>
+
+
+
+
+							</ul><!--dropdown menu-->
+						</li><!--dropdown-->
+					</ul>
+					<form class="navbar-form pull-left">
+						<input type="text" class="form-control" placeholder="search bar" id="searchInput">
+
+						<button type="submit" class="btn btn-danger"><span class="glyphicon glyphicon-search" ></span></button>
+
+					</form><!--end form-->
+					<ul class="nav navbar-nav pull-right">
+						<li class="dropdown">
+
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>my account<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-wrench"></span>settings</a>
+								</li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-refresh"></span>update</a>
+								</li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-briefcase"></span>work</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-off"></span>signout</a>
+								</li>
+							</ul><!--dropdown menu-->
+						</li><!--dropdown li-->
+					</ul>
+				</div><!--nav-collapse-->
+			</div><!--container-->
+		</div><!-- navbar end-->
+
+		<div class="carousel slide" id="myCarousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+				<li data-slide-to="1" data-target="#myCarousel"></li>
+				<li data-slide-to="2" data-target="#myCarousel"></li>
+				<li data-slide-to="3" data-target="#myCarousel"></li>
+
+			</ol><!--end carousel indicators-->
+			<!--wrapper for slides-->
+			<div class="carousel-inner">
+				<div class="item active" id="slide1">
+
+					<div class="carousel-caption">
+						<h4>BUILDING BLOCKS</h4>
+						<p>Welcome to BUILDING BLOCKS, we take care of your home dreams.</p>
+					</div><!-- end carousel-caption-->
+				</div><!-- end item -->
+
+
+				<div class="item" id="slide2">
+             <img src="../../image/buil.jpg"/>
+					<div class="carousel-caption">
+						<h4>BUILDING BLOCKS</h4>
+						<p>Welcome to BUILDING BLOCKS, we take care of your home dreams.</p>
+					</div><!-- end carousel-caption-->
+				</div><!-- end item -->
+
+
+
+				<div class="item" id="slide3">
+
+					<div class="carousel-caption">
+						<h4>BUILDING BLOCKS</h4>
+						<p>Welcome to BUILDING BLOCKS, we take care of your home dreams.</p>
+					</div><!-- end carousel-caption-->
+				</div><!-- end item -->
+				<div class="item" id="slide4">
+
+					<div class="carousel-caption">
+						<h4>BUILDING BLOCKS</h4>
+						<p>Welcome to BUILDING BLOCKS, we take care of your home dreams.</p>
+					</div><!-- end carousel-caption-->
+				</div><!-- end item -->
+
+			</div><!--carousel-inner-->
+			<!--controls-->
+			<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+			<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+		</div><!-- end carousel -->
+
+		<div class="row" id="bigCallout">
+			<div class="col-12">
+				<div class="alert alert-success alert-block fade in">
+					<button type="button" class="close" data-dismiss="alert">&times;</button>
+					<h3>display</h3>
+					<p>error u are entering without authorization! please signup!</p>
+				</div><!--alert box-->
+				<!-- Visible only on small devices -->
+				<div class="well well-small visible-sm">
+					<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Contact Us!</a>
+				</div><!-- end well-small -->
+
+				<div class="well">
+					<div class="page-header">
+						<h1>
+							Join us!<small>make ur dream come true</small>
+						</h1>
+					</div><!--end page-header-->
+
+					<p class="lead">Calling all master builders! You've wanted a toy building block contest for some time, here it is! Clear a spot on the carpet and dive into your favorite building bricks or blocks and create something amazing..</p>
+					<a href="" class="btn btn-danger">click here</a>
+
+					<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up">Signup to join with us</span></a>
+					<div class="modal fade" id="myModal">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">sign-up</h4>
+								</div><!--end modal header-->
+								<div class="modal-body">
+									<form>
+										name:<input type="text">
+
+									</form>
+
+								</div><!--end modal-body-->
+								<footer>
+									<button class="btn btn-primary" type="button">save</button>
+									<button class="btn btn-default" type="button">cancel</button>
+								</footer><!--end modal footer-->
+							</div><!--end modalcontent-->
+						</div><!--end modal dialog-->
+					</div><!--end mymodal-->
+
+				</div><!--end well-->
+			</div><!--end col-12-->
+
+		</div><!--end call out-->
+		<hr>
+
+		<div class="row" id="headingfeatures">
+			<div class="col_12">
+				<h2>Our Services</h2>
+				<p class-"lead">we provide life long services</p>
+			</div><!--end col_12-->
+		</div><!--end headingfeatures-->
+
+		<div class="row" id="features"><!--column features start-->
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">EMI</h3>
+					</div><!--end panelheading-->
+
+					<img src="images/tata.jpg" class="img-circle" alt="html5">
+					<p>Installment payments</p>
+					<a href="" target="_blank" class="btn btn-warning btn-block">view</a>
+				</div><!--end panel-->
+			</div><!--featue col end-->
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Interiors</h3>
+					</div><!--end panelheading-->
+
+					<img src="images/naac.jpg" class="img-circle" alt="html5">
+					<p>interior Desgins</p>
+					<a href="" target="_blank" class="btn btn-warning btn-block">view</a>
+				</div><!--end panel-->
+			</div><!--featue col end-->
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Quality</h3>
+					</div><!--end panel-->
+					<img src="images/assets.jpg" class="img-circle" alt="html5">
+					<p>Future Supporting</p>
+					<a href="" target="_blank" class="btn btn-warning btn-block">view</a>
+
+				</div><!--featue col end-->
+			</div><!--end features-->
+
+
+			<div class="row" id="moreinfo">
+				<div class="col-sm-6">
+					<h3>OUR BRANCHES</h3>
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#tab1" data-toggle="tab">vishakapatnam</a></li>
+							<li ><a href="#tab2" data-toggle="tab">bangalore</a></li>
+						</ul><!--end nav tabs-->
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab1">
+								<h4><span class="glyphicon glyphicon-map-marker"></span>our location<small>vizag</small></h4>
+
+
+
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3799.244015058587!2d83.374907514618!3d17.780225387844276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a395b1d31491a4d%3A0x8b129d81ef9bc2fa!2sGITAM+Institute+Of+Science!5e0!3m2!1sen!2sin!4v1480242752308" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+								<p>We've got amazing LEGO prizes for the winners to keep your building skills as sharp as the pros. This contest is open to all types of *building blocks or brick*, from any manufacturer, and modified pieces are acceptable</p>
+								<p>We've got amazing LEGO prizes for the winners to keep your building skills as sharp as the pros. This contest is open to all types of *building blocks or brick*, from any manufacturer, and modified pieces are acceptable</p>
+							</div><!--tabcpane end-->
+							<div class="tab-pane" id="tab2">
+								<h4><span class="glyphicon glyphicon-map-marker"></span>our location<small>bangalore</small></h4>
+
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3883.0114530658852!2d77.59378571455558!3d13.287224790649358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb1de47ffbf5d49%3A0xec91545e88c87ae9!2sGITAM+UNIVERSITY%2C+BANGALORE!5e0!3m2!1sen!2sin!4v1480243295305" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+								<p>We've got amazing LEGO prizes for the winners to keep your building skills as sharp as the pros. This contest is open to all types of *building blocks or brick*, from any manufacturer, and modified pieces are acceptable</p>
+								<p>We've got amazing LEGO prizes for the winners to keep your building skills as sharp as the pros. This contest is open to all types of *building blocks or brick*, from any manufacturer, and modified pieces are acceptable.</p>
+							</div><!--tab-pane end-->
+						</div><!--tab content-->
+
+					</div><!--tab tabbable-->
+				</div><!--end column6-->
+				<div class="col-sm-6">
+					<h2> OUR ACHIEVMENTS</h2>
+					<div class="list-group">
+						<div class="list-group-item">
+							<h3 class="list-group-item-heading">our work</h3>
+							<p class="list-group-item-text">	We've got amazing LEGO prizes for the winners to keep your building skills as sharp as the pros. This contest is open to all types of *building blocks or brick*, from any manufacturer, and modified pieces are acceptable.</p>
+
+						</div><!--end list-group-item-->
+						<div class="list-group-item">
+							<h3 class="list-group-item-heading">achievements</h3>
+							<p class="list-group-item-text">	We've got amazing LEGO prizes for the winners to keep your building skills as sharp as the pros. This contest is open to all types of *building blocks or brick*, from any manufacturer, and modified pieces are acceptable.</p>
+
+						</div><!--end list-group-item-->
+						<div class="list-group-item">
+							<h3 class="list-group-item-heading">feedback</h3>
+							<p class="list-group-item-text">	We've got amazing LEGO prizes for the winners to keep your building skills as sharp as the pros. This contest is open to all types of *building blocks or brick*, from any manufacturer, and modified pieces are acceptable</p>
+
+						</div><!--end list-group-item-->
+					</div><!--end list-group-->
+				</div><!--end column6-->
+			</div><!--end moreinfo-->
+			<hr>
+
+
+		</div><!--container end -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<h6>copyright &copy;2016 {vikram}</h6>
+					</div><!--end col2-->
+					<div class="col-sm-2">
+						<h4>navigation</h4>
+						<ul class="unstyled">
+							<li><a href="/" >home</li>
+								<li><a href="/" >about</li>
+									<li><a href="/" >contact</li>
+									</ul>
+								</div><!--col4 end-->
+								<div class="col-sm-4">
+									<h4>About us</h4>
+									<p>We've got amazing LEGO prizes for the winners to keep your building skills as sharp as the pros..
+									</p>
+								</div><!--col4 end-->
+								<div class="col-sm-2">
+									<h6>follow us on</h6>
+									<ul class="unstyled">
+										<li><a href="https://www.facebook.com" >facebook</a></li>
+										<li><a href="https://www.twitter.com" >twitter</i></a></li>
+
+									</ul>
+								</div><!--col4 end-->
+								<div class="col-sm-2">
+									<h6>copyright &copy;2016 {vikram}</h6>
+								</div><!--end col2-->
+
+
+							</div><!--row end-->
+						</div><!--container end-->
+					</footer>
+
+					<!-- All Javascript at the bottom of the page for faster page loading -->
+
+					<!-- First try for the online version of jQuery-->
+					<script src="http://code.jquery.com/jquery.js"></script>
+
+					<!-- If no online access, fallback to our hardcoded version of jQuery -->
+					<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+					<!-- Bootstrap JS -->
+					<script src="bootstrap/js/bootstrap.min.js"></script>
+
+					<!-- Custom JS -->
+					<script src="includes/js/script.js"></script>
+
+				</body>
+				</html>
